@@ -1,14 +1,12 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 
-export default function Home() {
+export default function About() {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>
-        This is <a> Homepage !</a>
-        <p> My name is Kartik tyagi</p>
+        Welcome to <a href="https://nextjs.org">About page !</a>
       </h1>
-      <a href="/about">Go to About page</a>
     </div>
   );
 }
