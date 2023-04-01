@@ -8,7 +8,9 @@ export default function Home() {
         This is <a> Homepage !</a>
         <p> My name is Kartik tyagi</p>
       </h1>
-      <a href="/about">Go to About page</a>
+      <a className={styles.a} href="/about">
+        Go to About page
+      </a>
     </div>
   );
 }
