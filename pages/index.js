@@ -1,16 +1,18 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+import PlatformGrid from "../components/PlatformsGrid";
+import MainBanner from "../components/MainBanner";
 
 export default function Home() {
+  const brandName = "Discord";
   return (
-    <div className={styles.container}>
-      <h1 className={styles.title}>
-        This is <a> Homepage !</a>
-        <p> My name is Kartik tyagi</p>
-      </h1>
-      <a className={styles.a} href="/about">
-        Go to About page
-      </a>
+    <div>
+      <Navbar name={brandName} />
+      <MainBanner />
+      <PlatformGrid />
+      <Footer />
     </div>
   );
 }
