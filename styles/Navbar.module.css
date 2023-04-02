@@ -1,7 +1,44 @@
-.red {
-  color: red;
+.navbar {
+  background-color: #23272a;
+  color: white;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px 0 40px;
 }
 
-.bold {
-  font-weight: bold;
+.links {
+  display: flex;
+  text-align: center;
+  gap: 35px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 140%;
+  margin-right: 40px;
+}
+
+.underline:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* Login Button */
+
+.appButton {
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+.loginButton {
+  color: black;
+  background-color: white;
+  border-radius: 40px;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px 16px;
+}
+.loginButton:hover {
+  color: #5865f2;
 }

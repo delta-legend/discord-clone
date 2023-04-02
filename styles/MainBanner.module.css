@@ -1,0 +1,48 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 120px 40px 120px 40px;
+  background-color: #23272a;
+  height: 100vh;
+  gap: 20px;
+}
+
+.laptopImage {
+  height: 100%;
+  width: auto;
+}
+.h1Text {
+  font-weight: 800;
+  color: white;
+  font-size: 65px;
+  text-transform: uppercase;
+  line-height: 95%;
+}
+.description {
+  margin-top: 25px;
+  margin-bottom: 16px;
+  color: white;
+  font-size: clamp(16px, 2vw, 20px);
+  line-height: 140%;
+}
+/* Download Buttons */
+.downloadButtons {
+  margin-top: 30px;
+}
+.downloadLogo {
+  margin-right: 8px;
+}
+.downloadWindows {
+  width: auto;
+  display: inline-flex;
+  background-color: #5865f2;
+  color: white;
+  border-radius: 28px;
+  font-size: 20px;
+  padding: 16px 32px;
+  transition: background-color 0.3s ease-in;
+}
+.downloadWindows:hover {
+  cursor: pointer;
+  background-color: #8ea1e1;
+}
