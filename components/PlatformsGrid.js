@@ -28,29 +28,51 @@ export default function PlatformGrid() {
             <div>
               <img
                 className={styles.androidImage}
-                src="ios.svg"
-                alt="ios-image"
+                src="android.svg"
+                alt="android-image"
               ></img>
             </div>
           </div>
         </div>
         {/* Linux Section */}
         <div className={styles.item3}>
-          <div className={styles.android}>
-            <div className={styles.androidText}> Android</div>
+          <div className={styles.Lunix}>
+            <div className={styles.androidText}> Lunix</div>
             <br />
-            <a className={styles.androidDownload}>Download</a>
+            <a className={styles.LunixDownload}>Download</a>
             <div>
               <img
-                className={styles.androidImage}
-                src="ios.svg"
-                alt="ios-image"
+                className={styles.LunixImage}
+                src="lunix.svg"
+                alt="lunix-image"
               ></img>
             </div>
           </div>
         </div>
-        <div className={styles.item4}>Box 4</div>
+        {/* Mac Section */}
+        <div className={styles.item4}>
+          <div className={styles.Mac}>
+            <div className={styles.MacText}> Mac</div>
+            <br />
+            <a className={styles.MacDownload}>Download</a>
+            <div>
+              <img
+                className={styles.MacImage}
+                src="Mac.svg"
+                alt="Mac-image"
+              ></img>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
 }
+// Features Section//
+<div className={styles.item5}>
+  <div className={styles.Features}>
+    <div className={styles.FeaturesText}> Mac</div>
+    <br />
+    <a className={styles.FeaturesDownload}>Download</a>
+  </div>
+</div>;

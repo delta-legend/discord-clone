@@ -85,5 +85,67 @@
   height: 600px;
   overflow: hidden;
 }
-.item4 {
+
+.Lunix {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+
+.LunixText {
+  margin-top: 60px;
+  font-weight: 600;
+  font-size: 2rem;
+}
+.LunixDownload {
+  cursor: pointer;
+  color: white;
+  background-color: #23272a;
+  border-radius: 28px;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 16px 32px;
+}
+.LunixDownload:hover {
+  background-color: #2c2f33;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.LunixImage {
+  margin-top: 64px;
+}
+/* Mac Section */
+.item3 {
+  margin-top: -200px;
+  background-color: #f6f6f6;
+  border-radius: 30px;
+  height: 600px;
+  overflow: hidden;
+}
+
+.Mac {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+
+.MacText {
+  margin-top: 60px;
+  font-weight: 600;
+  font-size: 2rem;
+}
+.MacDownload {
+  cursor: pointer;
+  color: white;
+  background-color: #23272a;
+  border-radius: 28px;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 16px 32px;
+}
+.MacDownload:hover {
+  background-color: #2c2f33;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.MacImage {
+  margin-top: 64px;
 }
