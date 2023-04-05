@@ -181,9 +181,7 @@
   font-weight: 400;
 }
 /* ResourcesHover */
-.resourcesHeading:hover {
-  text-decoration: underline;
-}
+
 .resourcesCollege:hover {
   text-decoration: underline;
   cursor: pointer;
