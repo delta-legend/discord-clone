@@ -114,8 +114,8 @@
   margin-top: 64px;
 }
 /* Mac Section */
-.item3 {
-  margin-top: -200px;
+.item4 {
+  margin-top: 0px;
   background-color: #f6f6f6;
   border-radius: 30px;
   height: 600px;
@@ -148,4 +148,49 @@
 }
 .MacImage {
   margin-top: 64px;
+}
+
+/* Features section */
+
+.item5 {
+  margin-top: -400px;
+  background-color: #f6f6f6;
+  border-radius: 10px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: left;
+  padding-left: 30px;
+}
+.featuresText {
+  margin-top: 50px;
+  font-weight: 600;
+  font-size: 2rem;
+}
+.featuresDescription {
+  margin-top: 20px;
+  font-weight: 350;
+  font-size: 1.3rem;
+}
+
+.featuresDownload {
+  cursor: pointer;
+  color: white;
+  background-color: #23272a;
+  border-radius: 28px;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 16px 32px;
+}
+.featuresDownload:hover {
+  background-color: #2c2f33;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.featuresDownloadIcon {
+  rotate: 90deg;
 }

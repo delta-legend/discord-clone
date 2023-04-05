@@ -37,7 +37,7 @@ export default function PlatformGrid() {
         {/* Linux Section */}
         <div className={styles.item3}>
           <div className={styles.Lunix}>
-            <div className={styles.androidText}> Lunix</div>
+            <div className={styles.androidText}> Linux</div>
             <br />
             <a className={styles.LunixDownload}>Download</a>
             <div>
@@ -64,15 +64,35 @@ export default function PlatformGrid() {
             </div>
           </div>
         </div>
+        {/* Features Section */}
+        <div className={styles.item5}>
+          <div className={styles.features}>
+            <div className={styles.featuresText}> Feeling experimental?</div>
+            <div className={styles.featuresDescription}>
+              {" "}
+              Try our Public Test Build and test new features before they
+              launch.
+            </div>
+            <br />
+            <a className={styles.featuresDownload}>
+              Download Public Test Build{" "}
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 20 32"
+                className={styles.featuresDownloadIcon}
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M22.2398 17.0778L11.8576 27.5689C11.2532 28.1437 10.3287 28.1437 9.75984 27.5689C9.19095 26.994 9.19095 26.0599 9.75984 25.4491L19.1109 16L9.75984 6.5509C9.19095 5.97605 9.19095 5.00599 9.75984 4.43114C10.3287 3.85629 11.2532 3.85629 11.8576 4.43114L22.2398 14.9581C22.8087 15.5329 22.8087 16.4671 22.2398 17.0778Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   );
 }
-// Features Section//
-<div className={styles.item5}>
-  <div className={styles.Features}>
-    <div className={styles.FeaturesText}> Mac</div>
-    <br />
-    <a className={styles.FeaturesDownload}>Download</a>
-  </div>
-</div>;
