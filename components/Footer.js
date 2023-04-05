@@ -54,16 +54,16 @@ export default function Footer() {
         <div></div>
         <div className={styles.products}>
           <div className={styles.productsHeading}>Product</div>
-          <div className={styles.productDownload}>Download</div>
-          <div className={styles.productNitro}>Nitro</div>
-          <div className={styles.productStatus}>Status</div>
+          <a>Download</a>
+          <a>Nitro</a>
+          <a> Status</a>
         </div>
         <div className={styles.company}>
           <div className={styles.companyHeading}>Company</div>
-          <div className={styles.companyAbout}>About</div>
-          <div className={styles.companyJobs}>Jobs</div>
-          <div className={styles.companyBranding}>Branding</div>
-          <div className={styles.companyNewsroom}>Newsroom</div>
+          <a> About</a>
+          <a>Jobs</a>
+          <a>Branding</a>
+          <a> Newsroom</a>
         </div>
         <div className={styles.resources}>
           <div className={styles.resourcesHeading}>Resources</div>
@@ -77,17 +77,15 @@ export default function Footer() {
           <a>Creators</a>
           <a>Community</a>
         </div>
-        <div className={styles.Policies}>
+        <div className={styles.policies}>
           <div className={styles.policiesHeading}>Policies</div>
-          <div className={styles.policiesTerms}>terms</div>
-          <div className={styles.policiesPrivacy}>Privacy</div>
-          <div className={styles.policiesCookieSettings}>CookieSettings</div>
-          <div className={styles.policiesGuidelines}>Guidelines</div>
-          <div className={styles.policiesAcknowledgements}>
-            Acknowledgements
-          </div>
-          <div className={styles.policiesLicenses}>Licenses</div>
-          <div className={styles.policiesModeration}>Moderation</div>
+          <a>terms</a>
+          <a> Privacy</a>
+          <a>CookieSettings</a>
+          <a>Guidelines</a>
+          <a>Acknowledgements</a>
+          <a>Licenses</a>
+          <a> Moderation</a>
         </div>
       </div>
 

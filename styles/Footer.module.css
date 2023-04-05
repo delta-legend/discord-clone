@@ -50,84 +50,49 @@
   padding-right: 20px;
 }
 /* Products */
+.products {
+  display: flex;
+  flex-direction: column;
+}
+
+.products a {
+  color: white;
+  padding-bottom: 15px;
+  font-weight: 400;
+}
+
+.products a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .productsHeading {
   color: #5865f2;
   padding-bottom: 15px;
   margin-top: 20px;
 }
-.productDownload {
-  color: white;
-  padding-bottom: 15px;
-  font-weight: 400;
-}
-.productNitro {
-  color: white;
-  padding-bottom: 15px;
-  font-weight: 400;
-}
-.productStatus {
-  color: white;
-  padding-bottom: 15px;
-  font-weight: 400;
-}
-/* Products Hover */
-
-.productDownload:hover {
-  text-decoration: underline;
-  cursor: pointer;
-}
-.productNitro:hover {
-  text-decoration: underline;
-  cursor: pointer;
-}
-.productStatus:hover {
-  text-decoration: underline;
-  cursor: pointer;
-}
 /* Company */
+
+.company {
+  display: flex;
+  flex-direction: column;
+}
+
+.company a {
+  color: white;
+  padding-bottom: 15px;
+  font-weight: 400;
+}
+
+.company a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
 
 .companyHeading {
   color: #5865f2;
   padding-bottom: 15px;
   margin-top: 20px;
-}
-.companyAbout {
-  color: white;
-  padding-bottom: 15px;
-  font-weight: 400;
-}
-.companyJobs {
-  color: white;
-  padding-bottom: 15px;
-  font-weight: 400;
-}
-.companyBranding {
-  color: white;
-  padding-bottom: 15px;
-  font-weight: 400;
-}
-.companyNewsroom {
-  color: white;
-  padding-bottom: 15px;
-  font-weight: 400;
-}
-/* CompanyHover */
-
-.companyAbout:hover {
-  text-decoration: underline;
-  cursor: pointer;
-}
-.companyJobs:hover {
-  text-decoration: underline;
-  cursor: pointer;
-}
-.companyBranding:hover {
-  text-decoration: underline;
-  cursor: pointer;
-}
-.companyNewsroom:hover {
-  text-decoration: underline;
-  cursor: pointer;
 }
 
 /* @dev 🟡-working 🟢-done 🔴not working */
@@ -156,76 +121,27 @@
 }
 
 /* Policies */
+.policies {
+  display: flex;
+  flex-direction: column;
+}
+
+.policies a {
+  color: white;
+  padding-bottom: 15px;
+  font-weight: 400;
+}
+
+.policies a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .policiesHeading {
   color: #5865f2;
   padding-bottom: 15px;
   margin-top: 20px;
 }
-.policiesTerms {
-  color: white;
-  padding-bottom: 15px;
-  font-weight: 400;
-}
-.policiesPrivacy {
-  color: white;
-  padding-bottom: 15px;
-  font-weight: 400;
-}
-.policiesCookieSettings {
-  color: white;
-  padding-bottom: 15px;
-  font-weight: 400;
-}
-.policiesGuidelines {
-  color: white;
-  padding-bottom: 15px;
-  font-weight: 400;
-}
-.policiesAcknowledgements {
-  color: white;
-  padding-bottom: 15px;
-  font-weight: 400;
-}
-.policiesLicenses {
-  color: white;
-  padding-bottom: 15px;
-  font-weight: 400;
-}
-.policiesModeration {
-  color: white;
-  padding-bottom: 15px;
-  font-weight: 400;
-}
-/* PoliciesHover */
-.policiesTerms:hover {
-  text-decoration: underline;
-  cursor: pointer;
-}
-.policiesPrivacy:hover {
-  text-decoration: underline;
-  cursor: pointer;
-}
-.policiesCookieSettings:hover {
-  text-decoration: underline;
-  cursor: pointer;
-}
-.policiesGuidelines:hover {
-  text-decoration: underline;
-  cursor: pointer;
-}
-.policiesAcknowledgements:hover {
-  text-decoration: underline;
-  cursor: pointer;
-}
-.policiesLicenses:hover {
-  text-decoration: underline;
-  cursor: pointer;
-}
-.policiesModeration:hover {
-  text-decoration: underline;
-  cursor: pointer;
-}
-
 /* Last section footer */
 .footerLastStrip {
   display: flex;
