@@ -71,9 +71,7 @@
   font-weight: 400;
 }
 /* Products Hover */
-.productsHeading:hover {
-  text-decoration: underline;
-}
+
 .productDownload:hover {
   text-decoration: underline;
   cursor: pointer;
@@ -114,9 +112,7 @@
   font-weight: 400;
 }
 /* CompanyHover */
-.companyHeading:hover {
-  text-decoration: underline;
-}
+
 .companyAbout:hover {
   text-decoration: underline;
   cursor: pointer;
