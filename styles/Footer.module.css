@@ -129,95 +129,32 @@
   text-decoration: underline;
   cursor: pointer;
 }
+
+/* @dev 🟡-working 🟢-done 🔴not working */
+
 /* Resources */
+.resources {
+  display: flex;
+  flex-direction: column;
+}
+
+.resources a {
+  color: white;
+  padding-bottom: 15px;
+  font-weight: 400;
+}
+
+.resources a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .resourcesHeading {
   color: #5865f2;
   padding-bottom: 15px;
   margin-top: 20px;
 }
-.resourcesCollege {
-  color: white;
-  padding-bottom: 15px;
-  font-weight: 400;
-}
-.resourcesSupport {
-  color: white;
-  padding-bottom: 15px;
-  font-weight: 400;
-}
-.resourcesSafety {
-  color: white;
-  padding-bottom: 15px;
-  font-weight: 400;
-}
-.resourcesBlog {
-  color: white;
-  padding-bottom: 15px;
-  font-weight: 400;
-}
-.resourcesFeedback {
-  color: white;
-  padding-bottom: 15px;
-  font-weight: 400;
-}
-.resourcesBuild {
-  color: white;
-  padding-bottom: 15px;
-  font-weight: 400;
-}
-.resourcesStreamKit {
-  color: white;
-  padding-bottom: 15px;
-  font-weight: 400;
-}
-.resourcesCreators {
-  color: white;
-  padding-bottom: 15px;
-  font-weight: 400;
-}
-.resourcesCommunity {
-  color: white;
-  padding-bottom: 15px;
-  font-weight: 400;
-}
-/* ResourcesHover */
 
-.resourcesCollege:hover {
-  text-decoration: underline;
-  cursor: pointer;
-}
-.resourcesSupport:hover {
-  text-decoration: underline;
-  cursor: pointer;
-}
-.resourcesSafety:hover {
-  text-decoration: underline;
-  cursor: pointer;
-}
-.resourcesBlog:hover {
-  text-decoration: underline;
-  cursor: pointer;
-}
-.resourcesFeedback:hover {
-  text-decoration: underline;
-  cursor: pointer;
-}
-.resourcesBuild:hover {
-  text-decoration: underline;
-  cursor: pointer;
-}
-.resourcesStreamKit:hover {
-  text-decoration: underline;
-  cursor: pointer;
-}
-.resourcesCreators:hover {
-  text-decoration: underline;
-  cursor: pointer;
-}
-.resourcesCommunity:hover {
-  text-decoration: underline;
-  cursor: pointer;
-}
 /* Policies */
 .policiesHeading {
   color: #5865f2;
@@ -288,6 +225,13 @@
   text-decoration: underline;
   cursor: pointer;
 }
+
+/* Last section footer */
+.footerLastStrip {
+  display: flex;
+  padding: 50px 70px;
+  justify-content: space-between;
+}
 .hr {
   margin-top: -50px;
   border-color: #5865f2;
@@ -295,16 +239,12 @@
   height: 0.1mm;
 }
 .discordLogo {
-  margin-top: 50px;
-  margin-left: 70px;
   color: white;
   cursor: pointer;
 }
-.loginButton {
+.signUp {
   width: 100px;
   height: 30px;
-  margin-left: 1350px;
-  margin-bottom: -100px;
   color: white;
   background-color: #5865f2;
   font-size: 1.2rem;
