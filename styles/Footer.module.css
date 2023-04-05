@@ -1,3 +1,320 @@
-.blue {
-  color: skyblue;
+.footer {
+  height: 610px;
+  background-color: #23272a;
+  margin-top: 200px;
+}
+
+.footerGrid {
+  display: grid;
+  grid-template-columns: 3fr 1fr 2fr 2fr 2fr 2fr;
+  height: 500px;
+  padding: 80px 50px;
+}
+/* InfoBor */
+.infoBoxtext {
+  font-size: 40px;
+  font-weight: 900;
+  color: #5865f2;
+  margin-bottom: 15px;
+}
+.infoBoxSmallText {
+  color: white;
+  font-size: 0.8rem;
+  padding-bottom: 30px;
+}
+.footerDownloadIcon {
+  rotate: 90deg;
+  height: 10px;
+}
+.USAflagImage {
+  height: 15px;
+  padding-right: 10px;
+}
+.infoboxicons {
+  display: inline-flex;
+}
+.twitterLogo {
+  height: 30px;
+  padding-right: 20px;
+}
+.instagramLogo {
+  height: 25px;
+  padding-right: 20px;
+}
+.facebookLogo {
+  height: 25px;
+  padding-right: 20px;
+}
+.youtubeLogo {
+  height: 25px;
+  padding-right: 20px;
+}
+/* Products */
+.productsHeading {
+  color: #5865f2;
+  padding-bottom: 15px;
+  margin-top: 20px;
+}
+.productDownload {
+  color: white;
+  padding-bottom: 15px;
+  font-weight: 400;
+}
+.productNitro {
+  color: white;
+  padding-bottom: 15px;
+  font-weight: 400;
+}
+.productStatus {
+  color: white;
+  padding-bottom: 15px;
+  font-weight: 400;
+}
+/* Products Hover */
+.productsHeading:hover {
+  text-decoration: underline;
+}
+.productDownload:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.productNitro:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.productStatus:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+/* Company */
+
+.companyHeading {
+  color: #5865f2;
+  padding-bottom: 15px;
+  margin-top: 20px;
+}
+.companyAbout {
+  color: white;
+  padding-bottom: 15px;
+  font-weight: 400;
+}
+.companyJobs {
+  color: white;
+  padding-bottom: 15px;
+  font-weight: 400;
+}
+.companyBranding {
+  color: white;
+  padding-bottom: 15px;
+  font-weight: 400;
+}
+.companyNewsroom {
+  color: white;
+  padding-bottom: 15px;
+  font-weight: 400;
+}
+/* CompanyHover */
+.companyHeading:hover {
+  text-decoration: underline;
+}
+.companyAbout:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.companyJobs:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.companyBranding:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.companyNewsroom:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+/* Resources */
+.resourcesHeading {
+  color: #5865f2;
+  padding-bottom: 15px;
+  margin-top: 20px;
+}
+.resourcesCollege {
+  color: white;
+  padding-bottom: 15px;
+  font-weight: 400;
+}
+.resourcesSupport {
+  color: white;
+  padding-bottom: 15px;
+  font-weight: 400;
+}
+.resourcesSafety {
+  color: white;
+  padding-bottom: 15px;
+  font-weight: 400;
+}
+.resourcesBlog {
+  color: white;
+  padding-bottom: 15px;
+  font-weight: 400;
+}
+.resourcesFeedback {
+  color: white;
+  padding-bottom: 15px;
+  font-weight: 400;
+}
+.resourcesBuild {
+  color: white;
+  padding-bottom: 15px;
+  font-weight: 400;
+}
+.resourcesStreamKit {
+  color: white;
+  padding-bottom: 15px;
+  font-weight: 400;
+}
+.resourcesCreators {
+  color: white;
+  padding-bottom: 15px;
+  font-weight: 400;
+}
+.resourcesCommunity {
+  color: white;
+  padding-bottom: 15px;
+  font-weight: 400;
+}
+/* ResourcesHover */
+.resourcesHeading:hover {
+  text-decoration: underline;
+}
+.resourcesCollege:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.resourcesSupport:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.resourcesSafety:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.resourcesBlog:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.resourcesFeedback:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.resourcesBuild:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.resourcesStreamKit:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.resourcesCreators:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.resourcesCommunity:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+/* Policies */
+.policiesHeading {
+  color: #5865f2;
+  padding-bottom: 15px;
+  margin-top: 20px;
+}
+.policiesTerms {
+  color: white;
+  padding-bottom: 15px;
+  font-weight: 400;
+}
+.policiesPrivacy {
+  color: white;
+  padding-bottom: 15px;
+  font-weight: 400;
+}
+.policiesCookieSettings {
+  color: white;
+  padding-bottom: 15px;
+  font-weight: 400;
+}
+.policiesGuidelines {
+  color: white;
+  padding-bottom: 15px;
+  font-weight: 400;
+}
+.policiesAcknowledgements {
+  color: white;
+  padding-bottom: 15px;
+  font-weight: 400;
+}
+.policiesLicenses {
+  color: white;
+  padding-bottom: 15px;
+  font-weight: 400;
+}
+.policiesModeration {
+  color: white;
+  padding-bottom: 15px;
+  font-weight: 400;
+}
+/* PoliciesHover */
+.policiesTerms:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.policiesPrivacy:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.policiesCookieSettings:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.policiesGuidelines:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.policiesAcknowledgements:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.policiesLicenses:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.policiesModeration:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.hr {
+  margin-top: -50px;
+  border-color: #5865f2;
+  width: 1350px;
+  height: 0.1mm;
+}
+.discordLogo {
+  margin-top: 50px;
+  margin-left: 70px;
+  color: white;
+  cursor: pointer;
+}
+.loginButton {
+  width: 100px;
+  height: 30px;
+  margin-left: 1350px;
+  margin-bottom: -100px;
+  color: white;
+  background-color: #5865f2;
+  font-size: 1.2rem;
+  text-align: center;
+  border-radius: 30px;
+  cursor: pointer;
 }
