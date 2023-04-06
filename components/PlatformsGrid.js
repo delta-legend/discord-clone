@@ -58,7 +58,7 @@ export default function PlatformGrid() {
             <div>
               <img
                 className={styles.MacImage}
-                src="Mac.svg"
+                src="mac.svg"
                 alt="Mac-image"
               ></img>
             </div>

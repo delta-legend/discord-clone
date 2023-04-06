@@ -10,7 +10,7 @@ export default function Footer() {
           <div className={styles.infoBoxSmallText}>
             <img
               className={styles.USAflagImage}
-              src="Usaflag.svg"
+              src="USAflag.svg"
               alt="USAflag-image"
             ></img>
             English, USA
